@@ -7,11 +7,12 @@ This is a RESTful API that retrieves the top n best stories from the Hacker News
 •	Caching is used for individual stories for up to 15 minutes.
 
 **Enhancements**
-- There can be retry mechanism implemented to handle failed request to Hacker Rank API (e.g., using Polly).
+- There can be retry mechanism implemented to handle failed request to Hacker News API (e.g., using Polly).
 - Add pagination for the best stories list.
 -  Improve handling of API errors (e.g., timeouts, rate limits).
 - Authentication/Authorization can be implemented for securing the endpoint
 - There is a scope to write a Unit tests which can cover business logic and caching logics
+- There can be separation of concerns like moving hacker news API paths to app.config file.
 
 **Getting Started**
 1. Clone the repo:
